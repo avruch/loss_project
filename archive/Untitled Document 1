@@ -1,0 +1,5 @@
+import xdp_drop_control
+
+#test.main("intef","loss_func",fn_param)
+xdp_drop_control.main("s1-eth3","poisson_func",80)
+print("done")
